@@ -23,9 +23,11 @@ html {
     transform: translate(-50%, -50%);
 }
 .content {
+    font-family: Georgia, serif;
     text-align: center;
+    line-height: 150%;
     padding: 10px;
-    color:blueviolet;
+    color:rgb(40, 57, 114);
     background-color: antiquewhite;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
