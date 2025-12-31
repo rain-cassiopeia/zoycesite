@@ -1,7 +1,29 @@
+/* background image */
 html {
     background: url(/assets/marbl.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+/* fixing mobile overscrolling */
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+/* cebterubg a div */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.content {
+    color:blueviolet;
+    background-color: antiquewhite;
 }
