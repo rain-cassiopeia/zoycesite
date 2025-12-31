@@ -29,7 +29,9 @@ html {
     background-color: antiquewhite;
     overflow-y:auto;
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100dvh - 60px);
+    max-height: calc(100dvh - 60px - env(safe-area-inset-bottom));
+    min-height: 0;
+    width: calc(80dvw);
     -ms-overflow-style: none;  /* IE and Edge scrollbar hiding */
     scrollbar-width: none;  /* firefox scrollbar hiding */
 }
