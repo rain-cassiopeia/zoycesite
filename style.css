@@ -23,6 +23,16 @@ html {
     transform: translate(-50%, -50%);
 }
 .content {
+    text-align: center;
+    padding: 10px;
     color:blueviolet;
     background-color: antiquewhite;
+    overflow-y:auto;
+    max-height: calc(100vh - 60px);
+    -ms-overflow-style: none;  /* IE and Edge scrollbar hiding */
+    scrollbar-width: none;  /* firefox scrollbar hiding */
+}
+/* chrome and safari scrollbar hiding */
+.container::-webkit-scrollbar {
+    display:none;
 }
