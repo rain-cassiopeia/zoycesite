@@ -28,7 +28,8 @@ html {
     color:blueviolet;
     background-color: antiquewhite;
     overflow-y:auto;
-    max-height: calc(100vh - 60px);
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100dvh - 60px);
     -ms-overflow-style: none;  /* IE and Edge scrollbar hiding */
     scrollbar-width: none;  /* firefox scrollbar hiding */
 }
