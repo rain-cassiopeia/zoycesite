@@ -7,11 +7,10 @@ html {
     background-size: cover;
 }
 /* fixing mobile overscrolling */
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative
+@media screen and (max-width: 600px) { 
+    html, body {
+        overflow: hidden !important; 
+    }
 }
 /* cebterubg a div */
 .container {
